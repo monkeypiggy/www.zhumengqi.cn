@@ -1,0 +1,12 @@
+# Elasticsearch的配置属性 生产环境
+
+# elasticsearch.transport.address="10.11.24.60:9300"
+elasticsearch.transport.address="127.0.0.1:9300"
+
+# TODO:如何动态获取cluster.name,以此让多个集群共用一套代码
+# elasticsearch.cluster.name="fancy_kbzy_es_cluster"
+elasticsearch.cluster.name="fancy_cn_kbzy_es_cluster"
+# elasticsearch.cluster.name="fancy_kp_es_cluster"
+# elasticsearch.cluster.name="fancy_es_cluster"
+
+elasticsearch.display.size=10000
